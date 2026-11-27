@@ -93,28 +93,6 @@ http://IP_DO_SERVIDOR:8080/saas-app/clientes
 
 Substitua `IP_DO_SERVIDOR` pelo endereço IP do servidor. A porta e o caminho dependem da configuração efetiva do Tomcat.
 
-## Estrutura resumida
-
-```text
-saas-app/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── br/com/saas/
-│       │       ├── App.java
-│       │       └── Conexao.java
-│       └── webapp/
-│           └── META-INF/
-│               └── context.xml
-├── docs/
-│   └── adr/
-│       └── 001-arquitetura-da-aplicacao.md
-├── pom.xml
-└── README.md
-```
-
-A estrutura acima é uma referência de organização; confirme os caminhos reais do repositório antes de mover arquivos.
-
 ## Diagnóstico básico
 
 - Verifique o estado do Tomcat: `sudo systemctl status tomcat`
